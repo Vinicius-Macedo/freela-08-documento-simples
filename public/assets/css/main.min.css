@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.documento {
+  position: relative;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.documento .center-both {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.documento .center-both .campos {
+  font-weight: 700;
+  text-align: right;
+}
+
+.documento hr {
+  border-color: #101010;
+}
+
+.documento .color-blue {
+  border-color: #00ca98;
+}
+
+.documento .topo-container h1 {
+  text-align: right;
+}
+
+.documento .topo-container .orcamentitsta-container {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.documento .topo-container .orcamentitsta-container .orcamentistas-info {
+  text-align: right;
+}
+
+.documento .ordem-container .ordem-campos {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[6];
+      grid-template-columns: repeat(6, auto);
+}
+
+.documento .endreco-container .endereco-campos {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+
+.documento .itens-container .itens-campos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.documento .itens-container .itens-campos .pedidos-table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.documento .itens-container .itens-campos .pedidos-table tr {
+  border: solid 1px #000;
+}
+
+.documento .itens-container .itens-campos .pedidos-table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.documento .itens-container .itens-campos .pedidos-table tr th {
+  padding: 4px;
+  background-color: #A5A6A5;
+  border: solid 1px #000;
+}
+
+.documento .itens-container .itens-campos .pedidos-table tr td {
+  padding: 4px;
+  border: solid 1px #000;
+}
+
+.documento .itens-container .itens-campos .pedidos-table tr .text-left {
+  text-align: left;
+}
+
+.documento .itens-container .itens-campos .self-right {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.documento .forma-container .forma-campos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  gap: 80px;
+}
+
+.documento .forma-container .forma-campos .forma-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.documento .forma-container .forma-campos .forma-table tr th {
+  padding: 4px;
+}
+
+.documento .forma-container .forma-campos .forma-table tr td {
+  padding: 4px;
+  border: solid 3px #e8e8e8;
+}
+
+.documento .forma-container .forma-campos .assinatura-container {
+  width: 300px;
+  text-align: center;
+}
+
+.documento .rodape {
+  margin-top: auto;
+}
+/*# sourceMappingURL=main.min.css.map */

@@ -1,0 +1,152 @@
+$black: #101010;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.documento {
+  position: relative;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+
+  .center-both {
+    display: flex;
+    gap: 4px;
+
+
+    .campos {
+      font-weight: 700;
+      text-align: right;
+    }
+  }
+
+  hr {
+    border-color: #101010;
+  }
+
+  .color-blue {
+    border-color: #00ca98;
+  }
+  .topo-container {
+    h1 {
+      text-align: right;
+    }
+    .orcamentitsta-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .orcamentistas-info {
+        text-align: right;
+      }
+    }
+  }
+
+  .ordem-container {
+    .ordem-campos {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(6, auto);
+
+      
+    }
+  }
+
+  .endreco-container {
+    .endereco-campos {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+
+  .itens-container {
+    .itens-campos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+
+      .pedidos-table {
+        text-align: center;
+        border-collapse: collapse;
+        
+        
+        tr {
+          &:nth-child(even) {
+            background-color: #dddddd;
+          }
+          border: solid 1px #000;
+
+          th {
+            padding: 4px;
+            background-color: #A5A6A5;
+            border: solid 1px #000;
+            
+          }
+
+          td {
+            padding: 4px;
+            border: solid 1px #000;
+          }
+
+          .text-left {
+            text-align: left;
+          }
+        }
+      }
+
+      .self-right {
+        align-self: flex-end;
+      }
+
+   
+    }
+  }
+
+  .forma-container {
+    
+
+    .forma-campos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      gap: 80px;
+      
+      .forma-table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        tr {
+          th {
+            padding: 4px;
+          }
+          td {
+            padding: 4px;
+            border: solid 3px #e8e8e8;
+          }
+        }
+      }
+
+      .assinatura-container {
+        width: 300px;
+        text-align: center;
+      }
+    }
+  }
+
+  .rodape {
+    margin-top:auto;
+  }
+
+  
+  
+}
